@@ -1,0 +1,30 @@
+.product-description {
+    max-height: 4.5em; /* Adjust the height as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.fixed-image-container {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.fixed-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

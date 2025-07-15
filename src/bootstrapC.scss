@@ -1,0 +1,57 @@
+// src/bootstrapC.scss
+$primary: #81C408;
+$secondary: #FFB524;
+$light: #F4F6F8;
+$dark: #45595B;
+
+$font-family-base: 'Open Sans', sans-serif;
+$headings-font-family: 'Raleway', sans-serif;
+
+$body-color: #747d88;
+$headings-color: $dark;
+
+$headings-font-weight: 600;
+$display-font-weight: 800;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 10px;
+$border-radius-sm: $border-radius;
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+@import "~bootstrap/scss/bootstrap";
+
+// Example of specific styles
+body {
+  font-family: $font-family-base;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $headings-color;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.custom-class body {
+    font-family: $font-family-base !important;
+    color: $body-color !important;
+  }
+  
+  .custom-class h1, .custom-class h2, .custom-class h3, .custom-class h4, .custom-class h5, .custom-class h6 {
+    font-family: $headings-font-family !important;
+    color: $headings-color !important;
+  }
+  
+  .custom-class .btn-primary {
+    background-color: $primary !important;
+    border-color: $primary !important;
+  }

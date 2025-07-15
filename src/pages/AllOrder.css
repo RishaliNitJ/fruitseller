@@ -1,0 +1,44 @@
+
+.table-responsive {
+    padding: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+  
+  .table thead th {
+    border-bottom: none;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  
+  .table img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .py-5 h2 {
+    margin-bottom: 2rem;
+  }
+  
